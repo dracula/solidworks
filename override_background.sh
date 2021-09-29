@@ -18,9 +18,9 @@ fi
 # Make changes to ui dll
 chmod +w /c/Program\ Files/SOLIDWORKS\ Corp/SOLIDWORKS/swStyleBlueu.dll
 vim -u NONE \
-	"+%s/73 *, *73 *, *73/40,42,54/g" \
-	"+%s/80 *, *80 *, *80/68,71,90/g" \
-	"+%s/55 *, *55 *, *55/40,42,54/g" \
+	"+%s/73 *, *73 *, *73/40,42,54/ge" \
+	"+%s/80 *, *80 *, *80/68,71,90/ge" \
+	"+%s/55 *, *55 *, *55/40,42,54/ge" \
 	"+wq" \
 	/c/Program\ Files/SOLIDWORKS\ Corp/SOLIDWORKS/swStyleBlueu.dll
 
